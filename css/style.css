@@ -109,3 +109,30 @@ h2{
     height: 40px;
     padding-left: 5px;
 }
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 150px;
+        height: auto; /* Permitir que a altura seja ajustada automaticamente para manter a proporção */
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .forms {
+        width: 90%;
+        max-width: 400px;
+        height: auto; /* Permitir que a altura seja ajustada automaticamente conforme necessário */
+    }
+
+    .name,
+    h2 {
+        font-size: 24px;
+    }
+
+    .us,
+    .ok {
+        width: 100%;
+    }
+}
