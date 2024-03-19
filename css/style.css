@@ -20,32 +20,33 @@ main {
 }
 
 header {
-    height: 145px;
+    height: 87px;
     width: 100%;
-    background-color: black;
-}
+    background-color: #585858;}
 
 .logo {
-    width: 270px;
-    height: 230px;
+    position: relative;
+    left: 650px;
+    width: 180px;
+    height: 150px;
 }
 
 h1 {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #41B16E;
-    font-size: 26px;
+    color: #44BD32;
+    font-size: 16px;
     position: relative;
-    top: -185px;
-    left: 305px;
-    width: 628px;
+    top: -75px;
+    left: 180px;
+    width: 700px;
 }
 
 footer {
     height: 75px;
     width: 100%;
-    background-color: black;
+    background-color: #585858;
     color: var(--cor-font);
     margin-top: auto;
 }
@@ -53,7 +54,7 @@ p{
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #41B16E;
+    color: #44BD32;
     font-size: 12px;
     position: relative;
     left: 565px;
@@ -63,8 +64,9 @@ p{
 }
 .forms{
     position: relative;
-    top: 65px;
+    top: 85px;
     border-radius: 75px;
+    background-color: #000000;
     border: 1px solid #000;
     width: 360px;
     height: 420px;
@@ -103,16 +105,21 @@ h2{
 }
 .ok{
     border-radius: 50px;
-    background-color: #41B16E;
+    background-color: #44BD32;
     border: 1px solid var(--cor-font);
     width: 250px;
     height: 40px;
     padding-left: 5px;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.ptsvg {
+    fill: #000000; 
+    width: 30px; 
+    height: 30px;   
+    position: relative;
+    top: -115px;
+    padding: 5px;
+    left: 1490px;
+    background-color: #44BD32;
+    border-radius: 50%;
 }
+
