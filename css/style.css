@@ -109,31 +109,3 @@ h2{
     height: 40px;
     padding-left: 5px;
 }
-
-@media screen and (max-width: 600px) {
-    .logo {
-        width: 150px;
-        height: auto;
-    }
-
-    h1 {
-        font-size: 18px;
-        margin-top: 10px; /* Adicionei margem superior para dar espaço entre o título e o logo em telas menores */
-    }
-
-    .forms {
-        width: 90%;
-        max-width: 300px; /* Reduzi um pouco a largura máxima do formulário para telas menores */
-        height: auto;
-    }
-
-    .name,
-    h2 {
-        font-size: 24px;
-    }
-
-    .us,
-    .ok {
-        width: 100%;
-    }
-}
