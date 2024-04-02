@@ -13,8 +13,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url('https://img.freepik.com/vetores-gratis/vetor-de-fundo-decorativo-de-textura-de-aquarela-colorida-suave_1055-13146.jpg');
+    background-size: cover;
+    backdrop-filter: blur(70px); 
+    background-repeat: no-repeat;
 }
-
 main {
     flex: 1;
 }
@@ -22,11 +25,14 @@ main {
 header {
     height: 87px;
     width: 100%;
-    background-color: #585858;}
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #CEF1E8;}
 
 .logo {
     position: relative;
-    left: 650px;
+    left: 0px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
     width: 180px;
     height: 150px;
 }
@@ -35,18 +41,19 @@ h1 {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #44BD32;
-    font-size: 16px;
+    color: #000;
+    opacity: 62%;
+    font-size: 26px;
     position: relative;
-    top: -75px;
-    left: 180px;
+    top: -135px;
+    left: 230px;
     width: 700px;
 }
 
 footer {
     height: 75px;
     width: 100%;
-    background-color: #585858;
+    background-color: #CEF1E8;
     color: var(--cor-font);
     margin-top: auto;
 }
@@ -54,7 +61,7 @@ p{
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #44BD32;
+    color: #000000;
     font-size: 12px;
     position: relative;
     left: 565px;
@@ -66,11 +73,12 @@ p{
     position: relative;
     top: 85px;
     border-radius: 75px;
-    background-color: #000000;
-    border: 1px solid #000;
+    border: 1px solid #92C1B8;
     width: 360px;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
     height: 420px;
-    left: 550px;
+    left: 590px;
     text-align: center;
 }
 .name{
@@ -78,7 +86,7 @@ p{
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
-    color: #41B16E;
+    color: #000000;
     margin-left: -300px;
     position: relative;
 }
@@ -87,25 +95,26 @@ h2{
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  color: #41B16E;
+  color: #8EA9A4;
 }
 .us{
     border-radius: 50px;
-    border: 1px solid var(--cor-font);
-    width: 311px;
+    border: 1px solid #809F9A;
+    width: 340px;
+    background-color: #ECFFFA;
     height: 40px;
-    left: -10px;
+    
     position: relative;
     padding-left: 5px;
 }
 ::placeholder{
-    color: #41B16E;
+    color: #000000;
     margin-left: 5px;
     font-size: 12px;
 }
 .ok{
     border-radius: 50px;
-    background-color: #44BD32;
+    background-color: #A1C6BE;
     border: 1px solid var(--cor-font);
     width: 250px;
     height: 40px;
@@ -116,10 +125,10 @@ h2{
     width: 30px; 
     height: 30px;   
     position: relative;
-    top: -115px;
+    top: -185px;
     padding: 5px;
-    left: 1490px;
-    background-color: #44BD32;
+    left: 1480px;
+    background-color: #A1C6BE;
     border-radius: 50%;
 }
 
